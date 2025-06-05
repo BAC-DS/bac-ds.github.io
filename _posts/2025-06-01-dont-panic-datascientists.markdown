@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Scientists - The End ⚠️ is Not Nigh 🌈"
-date:   2025-05-23 20:00:00 +0000
+date:   2025-06-01 20:00:00 +0000
 categories: blog general
 ---
 
