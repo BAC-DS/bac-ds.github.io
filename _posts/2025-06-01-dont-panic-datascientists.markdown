@@ -12,7 +12,7 @@ categories: blog general
 
 <figure style="width: 800px;">
   <img src="/assets/DS_chooses_life.png" alt="My image description" style="width: 100%;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;"> A DS has chosen to upskill; thanks ChatGPT</figcaption>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;"> This DS chooses to upskill! Thanks ChatGPT for the image</figcaption>
 </figure>
 
 Maybe you've read about the huge [tech layoffs](https://techcrunch.com/2025/05/21/tech-layoffs-2025-list/), or recently experienced the job market? Perhaps you've seen a few headlines or read some articles on LinkedIn, or your family have been asking you why you're needed now that everyone has ChatGPT...
@@ -35,7 +35,7 @@ Just better hope the excel sheets don't change too much for next month...
 
 <figure style="float: right; margin-left: 15px; width: 300px;">
   <img src="/assets/hooked-on-instagram.png" alt="My image description" style="width: 100%;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Instagram has me hooked! Thanks ChatGPT</figcaption>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Instagram hooks this poor doomscroller in! Thanks ChatGPT for the image</figcaption>
 </figure>
 
 But... and I say this with love ... a lot of this is just (admittedly quite advanced) data analysis. It isn't necessarily predictive, but rather it's descriptive - giving solid evidence for sometimes outside-the-box thinking, on historical events.
@@ -53,12 +53,8 @@ Too many businesses have, for too long, considered data capture almost as an aft
 
 <figure style="float: left; margin-right: 15px; width: 500px;">
   <img src="/assets/data_dumpster.png" alt="My image description" style="width: 100%;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">A cartoonish data disaster; thanks ChatGPT</figcaption>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">A cartoonish data disaster. Thanks ChatGPT for the image</figcaption>
 </figure>
-
-Here is some text that will flow to the right of the image. The image includes a caption underneath, which is semantically useful and keeps things tidy.
-
-
 
 The CXO have been getting wise to the issue for some time, and realise that ML/AI can be used to supercharge the business: to grow a user base, develop more accurate forecasts to optimise operations and inventory, adjust shift patterns, or even capitalise on the potential of GenAI and build internal chat-bots.
 
