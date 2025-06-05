@@ -151,6 +151,6 @@ It could not be expected to deliver the promised gains for the huge swathe of bu
 
 However! To the people who have invested their time and money in their passion for data, who have developed their skills to understand statistics & coding, modelling, plotting, dashboards... there is PLENTY still to do, opportunities abound, and I don't see that going away any time soon. 
 
-Pivot your pitch; you're a problem solver who knows advanced coding and statistics. That's a heady combination. As a data scientist, you're working across a stack of skills and capabilities. If you can own and enable each part, or at least more parts, of the __data --> insight__ pipeline and process, and understand the broader context of the puzzle you're trying to solve, you're of _incredible_ value. 
+Evolve your skills, and update your pitch; you're a problem solver who knows advanced coding and statistics. That's a heady combination. As a data scientist, you're working across a stack of skills and capabilities. If you can own and enable each part, or at least more parts, of the __data --> insight__ pipeline and process, and understand the broader context of the puzzle you're trying to solve, you're of _incredible_ value. 
 
 ## __Accept the situation and adapt! And of course: Never 👏 stop 👏 developing 👏 yourself.__
