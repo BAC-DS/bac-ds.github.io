@@ -145,9 +145,11 @@ On the other hand, some stakeholders will want to know how the data collection/p
 so get used to explaining the output and technical details in a way a non-coder can understand. It is, after all, their baby too!
 
 
-#### Final Thoughts
+## Final Thoughts
 
-Data Science, or rather the role of the data scientist, is for sure changing. We are long overdue a reality check; a much-needed __refinement__ of a nascent field which was bloated and under enormous pressure to deliver on huge and unfair expectations (thanks again FAANG!); a frankly impossible task for the huge swathe of businesses that aren't fully digitalised.
+Data Science, or rather the role of the data scientist, is evolving. Expect it to continue to do so.
+
+We are long overdue a reality check; a much-needed __refinement__ of a nascent field which was bloated and under enormous pressure to deliver on huge and unfair expectations (thanks again FAANG!); a frankly impossible task for the huge swathe of businesses that aren't fully digitalised.
 
 However! To the people who have invested their time and money in their passion for data, and developed their skills to understand statistics & coding, modelling, plotting, dashboards... there is PLENTY still to do, opportunities abound, and I don't see that going away any time soon. Pivot your pitch; you're a problem solver who knows advanced coding and statistics. That's a heady combination. As a data scientist, you're working across a stack of skills and capabilities. If you can own and enable each part, or at least more parts, of the __data --> insight__ pipeline and process, and understand the broader context of the puzzle you're trying to solve, you're of _incredible_ value. 
 
