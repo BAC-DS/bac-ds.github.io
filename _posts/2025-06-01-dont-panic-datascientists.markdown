@@ -10,7 +10,7 @@ categories: blog general
 
 <!-- ![image of radar plots showing different skillsets for data roles](/assets/DS_chooses_life.png) -->
 
-<figure style="max-width: 90%; margin: 0 auto;">
+<figure style="max-width: 100%; margin: auto 30;">
   <img src="/assets/DS_chooses_life.png" alt="Image showing DS leaving the grim reaper and working on growing knowledge" style="width: 90%; height: auto; display: block;"/>
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;">This DS chooses to upskill! Thanks ChatGPT for the image</figcaption>
 </figure>
@@ -22,8 +22,7 @@ It can sometimes feel like Data Science is dead - or at least dying.
 
 ## _So: What's going on?_
 
-
-Time was, you could claim to be a Data Scientist if you were somebody who rattled around in a Jupyter notebook, did some 🐼🐼🐼 munging, spit out a few seaborn 📈 or - whoop - a [Plotly Dashboard](), plugging away at a nice handful of csvs, gleaning insights that your stakeholders had never had before from their tired, dusty, flat data. A bit of causal inference via feature importance on a Random Forest classifier went a long way when some of the engineers' kids were born pre-decimalisation. Perhaps you're at a company where databases are witchcraft, and siloed Excel sheets are still the plat-du-jour. Some ETL, a quick sklearn pipeline to do some hyper-parameter tuning, whip up a truth table, and BAM: you've got the C-suite salivating...
+Time was, you could claim to be a Data Scientist if you were somebody who rattled around in a Jupyter notebook, did some 🐼🐼🐼 munging, spit out a few seaborn 📈 or - whoop - a Plotly Dash app, plugging away at a nice handful of csvs, gleaning insights that your stakeholders had never had before from their tired, dusty, flat data. A bit of causal inference via feature importance on a Random Forest classifier went a long way when some of the engineers' kids were born pre-decimalisation. Perhaps you're at a company where databases are witchcraft, and siloed Excel sheets are still the plat-du-jour. Some ETL, a quick sklearn pipeline to do some hyper-parameter tuning, whip up a truth table, and BAM: you've got the C-suite salivating...
 
 Just better hope the excel sheets don't change too much for next month...
 
@@ -43,7 +42,7 @@ But... and I say this with love ... a lot of this is just (admittedly quite adva
 
 Yes, with some interpretation by a domain expert, it could allow for some predictions, however it is not the FAANG customer segmentation/predictor models which keep you hooked, scrolling or buying.
 
-But __IT CAN'T BE__ - those companies live and breath data. Their systems are built to capture _more_ data. They are basically data companies! To be fair this is why they're ultimately the focus of our ire --- how much they know about us [link???] -- but it's also the reason that the machine learning engineers at these places get to deploy some seriously fun, powerful, value-adding models. A strong foundation of bountiful, good quality, data driven by an understanding that nailing collecting the right data will allow them to gain traction, build value, grow the user base... wash-rinse-repeat. The product is deployed to be interacted with and log all of that information; arguably the data IS the product -- it's just the user is not the customer.
+But __IT CAN'T BE__ - those companies live and breath data. Their systems are built to capture _more_ data. They are basically data companies! To be fair this is why they're ultimately the focus of our ire --- how much they know about us  -- but it's also the reason their machine learning engineers get to work on and deploy some seriously fun, powerful, value-adding models. A strong foundation of bountiful, good quality data, driven by an understanding that nailing collecting the right data will allow them to gain traction, build value, grow the user base... wash-rinse-repeat. The product is deployed to be interacted with and log all of that information; arguably the data IS the product -- it's just the user is not the customer.
 
 ## Most other companies: "Why can't we do that??"
 
@@ -69,27 +68,23 @@ __DATA. Consistent (ha), clean (lol), neat (loller), reliable (ok stop), live (F
 
 ### So... we need some data scientists!?
 
-Well - yes and no. I feel like data scientist could/has become an umbrella phrase for all of the nuanced roles which reside within the sphere of 'data analytics and predictive analytics', sometimes even encompassing data engineer. A general data strategy is required (which I will address in a future post), and it would be wise, in development of that, to have some key data personnel involved:
+Well - yes and no. I feel like data scientist could/has become an umbrella phrase for all of the nuanced roles which reside within the sphere of 'data analytics and predictive analytics', even encompassing data engineer. A general data strategy is required (which I will address in a future post), and it would be wise, in development of that, to have some key data personnel involved:
 
-<!--
-![image of radar plots showing different skillsets for data roles](/assets/DS_radar_plot.png)
 
-<center>Plots created by the author</center> -->
-
-<figure style="max-width: 100%; margin: 0 auto;">
+<figure style="max-width: 100%; margin: auto 30;">
   <img src="/assets/DS_radar_plot.png" alt="My image description" style="width: 100%;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;"> Radar plots to demonstrate the key skills and overlap for various roles in 'Data' teams, created by author</figcaption>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;"> Radar plots to demonstrate the key skills and overlap for various roles in 'Data' teams, created by author, a fanatic for creating plots to tell a story... because I'm a Data Scientist</figcaption>
 </figure>
 
-I like data and building visualisations to tell a story (... obviously), so these radar plots above are my attempt to differentiate the skillsets that the various roles within a data team may possess and specialise in (the list is not exhaustive). You may or may not agree with this breakdown - it's anecdotal and based on my experience - but hopefully it makes the point of the core competencies required for the various roles. It also shows the huge degree of overlap between the roles. 
+These radar plots above aim to demonstrate and differntiate the skillsets that the various roles within a data team may possess and specialise in (the list is not exhaustive). You may or may not agree with this breakdown - it's anecdotal and based on my experience - but hopefully it makes the point of the core competencies required for the various roles. It also shows the huge degree of overlap between the roles. 
 
 What it doesn't really allude to though is that, at different stages of a business, you need to lean heavily into those skills by differing amounts. A well established business which has 50 years of ledgers and 100 TB of files on hard drives containing all of their customer data, manufacturing records, IP ... They're going to need a Head of Data (or Digitalisation?) and likely a couple or even small team of data engineers to begin sorting out the infrastructure. A tech start-up formed 10 years ago is probably already on the cloud, and is 99% database driven: Data Scientist/ML Eng head-count green light!
 
 ## Why The Fall From Grace
 
-I feel like the hype around Data Science some years back has been driven by the worrying misconception that most businesses collect data how Google or Amazon might, using best practises; normalised database tables following the Kimble model, APIs to interact with various data-logging systems, well documented code and database schema. Hahahaha...
+I feel like the hype around Data Science some years back has been driven by the worrying misconception that most businesses collect data how Google or Amazon might, using industry-defining best practises; normalised database tables following the Kimble model, APIs to interact with various data-logging systems, well documented code and database schema.
 
-[gif of laughing homer here]
+Hahaha.
 
 Let's review the situation to understand, and try and apply some context:
 
@@ -103,8 +98,8 @@ On top of all of this, the softer, tertiary factors to consider include:
 	- which has been conflated by the move to remote work...
 		- against which there is now a significant backlash
 - There are some awful wars going on, a tanking economy and significant geopolitical instability; companies are risk averse and trimming headcount as a result
-- The deployment of various GenAI platforms is rapidly improving everyone's capability to write code and understand their data better...
-- **_so.... Data Scientists can be seen as a luxury
+- The deployment of various GenAI platforms is rapidly improving everyone's ability to write (or vibe) code and "understand" their data better... (no it's not, but it feels like it)
+- so.... Data Scientists can be seen as a luxury
 
 ## What should you do about this?
 
@@ -116,6 +111,7 @@ The job market waxes and wanes - that's the nature of life. But be prepared for 
 ### Data Engineering
 
 Sometimes your data won't be collected in a database; learn how to resolve this - look into best practises around data engineering, and become proficient with the basics of:
+
 - ETL including by scripting & scraping
 - data models including the star schema
 - SQL!! __NON NEGOTIABLE__
