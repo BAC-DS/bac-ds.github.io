@@ -10,6 +10,12 @@ categories: blog general
 
 <!-- ![image of radar plots showing different skillsets for data roles](/assets/DS_chooses_life.png) -->
 
+<figure style="max-width: 90%; margin: 0 auto;">
+  <img src="/assets/DS_chooses_life.png" alt="Image showing DS leaving the grim reaper and working on growing knowledge" style="width: 90%; height: auto; display: block;"/>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">This DS chooses to upskill! Thanks ChatGPT for the image</figcaption>
+</figure>
+
+
 <figure style="width: 800px;">
   <img src="/assets/DS_chooses_life.png" alt="My image description" style="width: 100%;"/>
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;"> This DS chooses to upskill! Thanks ChatGPT for the image</figcaption>
