@@ -16,11 +16,6 @@ categories: blog general
 </figure>
 
 
-<figure style="width: 800px;">
-  <img src="/assets/DS_chooses_life.png" alt="My image description" style="width: 100%;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;"> This DS chooses to upskill! Thanks ChatGPT for the image</figcaption>
-</figure>
-
 Maybe you've read about the huge [tech layoffs](https://techcrunch.com/2025/05/21/tech-layoffs-2025-list/), or recently experienced the job market? Perhaps you've seen a few headlines or read some articles on LinkedIn, or your family have been asking you why you're needed now that everyone has ChatGPT...
 
 It can sometimes feel like Data Science is dead - or at least dying.
@@ -57,7 +52,7 @@ Since 2010 I've worked in science or engineering companies and consultancies whe
 Too many businesses have, for too long, considered data capture almost as an after-thought to their main aim, a nice to have, or a bonus - like you might collect random extra screws from IKEA furniture... "sure, it will be of value, but we'll sort it another day". I've seen data 'logged' for product control, manufacturing, or characterisation, in non-automated and non-scalable ways. Network drives full of csvs; groups reliant on sharepoint libraries of excel files; or teams which use their Teams' chats to dump data analysis outputs - even raw and aggregated files... They are barely digitialised in the proper sense, and hence these companies are poorly set up for out-of-the-box data science, the implementation of ML or AI. 
 
 
-<figure style="float: left; margin-right: 15px; width: 500px;">
+<figure style="float: left; margin-right: 15px; max-width: 40%; margin: 0 auto;">
   <img src="/assets/data_dumpster.png" alt="My image description" style="width: 100%;"/>
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;">A cartoonish data disaster. Thanks ChatGPT for the image</figcaption>
 </figure>
