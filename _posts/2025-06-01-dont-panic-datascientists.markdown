@@ -34,9 +34,9 @@ Just better hope the excel sheets don't change too much for next month...
 <img src="/assets/hooked-on-instagram.png" alt="My image description" style="float: left; margin-right: 15px; width: 300px;"/> -->
 
 
-<figure style="float: right; margin-left: 15px; width: 300px;">
+<figure style="float: right; width: 40%; max-width: 300px; margin: 0 15px 15px 0;">
   <img src="/assets/hooked-on-instagram.png" alt="My image description" style="width: 100%;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Instagram hooks this poor doomscroller in! Thanks ChatGPT for the image</figcaption>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Social media hooks this scroller in. Thanks ChatGPT for the image</figcaption>
 </figure>
 
 But... and I say this with love ... a lot of this is just (admittedly quite advanced) data analysis. It isn't necessarily predictive, but rather it's descriptive - giving solid evidence for sometimes outside-the-box thinking, on historical events.
@@ -52,9 +52,9 @@ Since 2010 I've worked in science or engineering companies and consultancies whe
 Too many businesses have, for too long, considered data capture almost as an after-thought to their main aim, a nice to have, or a bonus - like you might collect random extra screws from IKEA furniture... "sure, it will be of value, but we'll sort it another day". I've seen data 'logged' for product control, manufacturing, or characterisation, in non-automated and non-scalable ways. Network drives full of csvs; groups reliant on sharepoint libraries of excel files; or teams which use their Teams' chats to dump data analysis outputs - even raw and aggregated files... They are barely digitialised in the proper sense, and hence these companies are poorly set up for out-of-the-box data science, the implementation of ML or AI. 
 
 
-<figure style="float: left; margin-right: 15px; max-width: 50%; margin: 10 auto;">
+<figure style="float: left; width: 40%; max-width: 400px; margin: 0 15px 15px 0;">
   <img src="/assets/data_dumpster.png" alt="My image description" style="width: 100%;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">A cartoonish data disaster. Thanks ChatGPT for the image</figcaption>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">The infamous data mountain, with insights just ready to be unearthed. Thanks ChatGPT for the image</figcaption>
 </figure>
 
 The CXO have been getting wise to the issue for some time, and realise that ML/AI can be used to supercharge the business: to grow a user base, develop more accurate forecasts to optimise operations and inventory, adjust shift patterns, or even capitalise on the potential of GenAI and build internal chat-bots.
@@ -76,8 +76,7 @@ Well - yes and no. I feel like data scientist could/has become an umbrella phras
 
 <center>Plots created by the author</center> -->
 
-
-<figure style="width: 800px;">
+<figure style="max-width: 100%; margin: 0 auto;">
   <img src="/assets/DS_radar_plot.png" alt="My image description" style="width: 100%;"/>
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;"> Radar plots to demonstrate the key skills and overlap for various roles in 'Data' teams, created by author</figcaption>
 </figure>
