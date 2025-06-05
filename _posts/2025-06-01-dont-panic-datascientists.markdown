@@ -88,9 +88,9 @@ Hahaha.
 
 Let's review the situation to understand, and try and apply some context:
 
-- Data science relies on a strong data infrastructure and data-centric culture; this takes time to get right, and requires budget, resource, and CXO buy-in (or even CXO-led!)
-- The corporate fables of a DS team deploying some sexy value-adding models that turn a company's fortune around over-night are rare, and very much the exception
- 
+- Data science relies on a strong data infrastructure and data-centric culture; this takes time to get right, and requires budget, resource, and CXO buy-in (ideally CXO-led!)
+- The fables of a DS team deploying some sexy value-adding models that turn a company's fortune around over-night are rare (lies), and very much the exception (utter nonsense)
+  
 On top of all of this, the softer, tertiary factors to consider include:
 
 - Salary demands are bit nuts (thanks FAANG -- [$450k at Netflix?!](https://mikkeldengsoe.substack.com/p/data-salaries-2022?s=w#footnote-1))
