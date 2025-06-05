@@ -104,8 +104,9 @@ On top of all of this, the softer, tertiary factors to consider include:
 ## What should you do about this?
 
 The job market waxes and wanes - that's the nature of life. But be prepared for what the market needs by:
-- keeping up-to-date with relevant skills (GenAI isn't going anywhere),
-- building a project portfolio is great (if you can walk someone through some examples) and, crucially: 
+- keeping up-to-date with relevant skills - GenAI isn't going anywhere, so get involved and learn where they hype ends and the value begins
+- building a project portfolio is great, especially if you can walk someone through some examples...
+and, crucially: 
 - __assume you won't be handed a clean dataset - or maybe even data at all!__ The thousands of data science/ML/AI/next-big-thing degrees and courses need to stop cutting to the chase, and _focus on the basics_.
 
 ### Data Engineering
