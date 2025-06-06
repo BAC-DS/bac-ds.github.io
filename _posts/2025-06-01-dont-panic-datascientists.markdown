@@ -10,19 +10,19 @@ categories: blog general
 
 <!-- ![image of radar plots showing different skillsets for data roles](/assets/DS_chooses_life.png) -->
 
-<figure style="max-width: 100%; margin: auto 30;">
-  <img src="/assets/DS_chooses_life.png" alt="Image showing DS leaving the grim reaper and working on growing knowledge" style="width: 90%; height: auto; display: block;"/>
+<figure style="max-width: 100%; margin: 20 auto;">
+  <img src="/assets/DS_chooses_life.png" alt="Image showing DS leaving the grim reaper and working on growing knowledge" style="width: 100%; height: auto; display: block;"/>
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;">This DS chooses to upskill! Thanks ChatGPT for the image</figcaption>
 </figure>
 
 
-Maybe you've read about the huge [tech layoffs](https://techcrunch.com/2025/05/21/tech-layoffs-2025-list/), or recently experienced the job market? Perhaps you've seen a few headlines or read some articles on LinkedIn, or your family have been asking you why you're needed now that everyone has ChatGPT...
+Maybe you've read about the huge [tech layoffs](https://techcrunch.com/2025/05/21/tech-layoffs-2025-list/), or experienced the job market recently? Or perhaps you've seen a few headlines or read some articles on LinkedIn, or your family have been asking you why you're needed now that everyone has ChatGPT...
 
-It can sometimes feel like Data Science is dead - or at least dying.
+It can sometimes feel like Data Science is dead -- or at least dying.
 
 ## _So: What's going on?_
 
-Time was, you could claim to be a Data Scientist if you were somebody who rattled around in a Jupyter notebook, did some 🐼🐼🐼 munging, spit out a few seaborn 📈 or - whoop - a Plotly Dash app, plugging away at a nice handful of csvs, gleaning insights that your stakeholders had never had before from their tired, dusty, flat data. A bit of causal inference via feature importance on a Random Forest classifier went a long way when some of the engineers' kids were born pre-decimalisation. Perhaps you're at a company where databases are witchcraft, and siloed Excel sheets are still the plat-du-jour. Some ETL, a quick sklearn pipeline to do some hyper-parameter tuning, whip up a truth table, and BAM: you've got the C-suite salivating...
+Time was, you could claim to be a Data Scientist if you were somebody who rattled around in a Jupyter notebook, did some 🐼🐼🐼 munging, spit out a few seaborn 📈 or -- whoop! -- a Plotly Dash app, plugging away at a nice handful of csvs, gleaning insights that your stakeholders had never had before from their tired, dusty, flat data. A bit of causal inference via feature importance on a Random Forest classifier went a long way when some of the engineers' kids were born pre-decimalisation. Perhaps you're at a company where databases are witchcraft, and siloed Excel sheets are still the plat-du-jour. Some ETL, a quick sklearn pipeline to do some hyper-parameter tuning, whip up a truth table, and BAM: you've got the SLT/C-suite's attention...
 
 Just better hope the excel sheets don't change too much for next month...
 
@@ -33,42 +33,44 @@ Just better hope the excel sheets don't change too much for next month...
 <img src="/assets/hooked-on-instagram.png" alt="My image description" style="float: left; margin-right: 15px; width: 300px;"/> -->
 
 
-<figure style="float: right; width: 40%; max-width: 300px; margin: 0 15px 15px 0;">
+<figure style="float: right; width: 40%; max-width: 300px; margin: 0px 0px 15px 15px;">
   <img src="/assets/hooked-on-instagram.png" alt="My image description" style="width: 100%;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Social media hooks this scroller in. Thanks ChatGPT for the image</figcaption>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Image from ChatGPT (clearly)</figcaption>
 </figure>
 
-But... and I say this with love ... a lot of this is just (admittedly quite advanced) data analysis. It isn't necessarily predictive, but rather it's descriptive - giving solid evidence for sometimes outside-the-box thinking, on historical events.
+But... and I say this with love... a lot of this is just (admittedly quite advanced) data analysis. It isn't necessarily predictive, but actually 'just' descriptive -- giving solid evidence for sometimes outside-the-box thinking, on historical events.
 
-Yes, with some interpretation by a domain expert, it could allow for some predictions, however it is not the FAANG customer segmentation/predictor models which keep you hooked, scrolling or buying.
+Yes, with some interpretation by a domain expert it could allow for some predictions, but it isn't the FAANG customer segmentation/predictor models which keep you hooked, scrolling or buying.
 
-But __IT CAN'T BE__ - those companies live and breath data. Their systems are built to capture _more_ data. They are basically data companies! To be fair this is why they're ultimately the focus of our ire --- how much they know about us  -- but it's also the reason their machine learning engineers get to work on and deploy some seriously fun, powerful, value-adding models. A strong foundation of bountiful, good quality data, driven by an understanding that nailing collecting the right data will allow them to gain traction, build value, grow the user base... wash-rinse-repeat. The product is deployed to be interacted with and log all of that information; arguably the data IS the product -- it's just the user is not the customer.
+__IT CAN'T BE__ - those companies live and breath data. Their systems are built to capture _more_ data. They are basically data companies! This is kind of why they freak us out a bit --- how much they know about us  -- but it's also the reason their machine learning engineers get to work on and deploy some seriously fun, powerful, value-adding models. A strong foundation of bountiful, good quality data, driven by an understanding that nailing collecting the right data will allow them to gain traction, build value, grow the user base... wash-rinse-repeat. The product is deployed to be interacted with and log all of that information; arguably the data IS the product -- it's just the user is not the customer.
 
-## Most other companies: "Why can't we do that??"
+## Lots of other companies: "Why can't we do that??"
 
 Since 2010 I've worked in science or engineering companies and consultancies where I interfaced with dozens of client companies, ranging from SMEs to huge multinationals - the problem is systemic and ubiquitous.
 
-Too many businesses have, for too long, considered data capture almost as an after-thought to their main aim, a nice to have, or a bonus - like you might collect random extra screws from IKEA furniture... "sure, it will be of value, but we'll sort it another day". I've seen data 'logged' for product control, manufacturing, or characterisation, in non-automated and non-scalable ways. Network drives full of csvs; groups reliant on sharepoint libraries of excel files; or teams which use their Teams' chats to dump data analysis outputs - even raw and aggregated files... They are barely digitialised in the proper sense, and hence these companies are poorly set up for out-of-the-box data science, the implementation of ML or AI. 
+Too many businesses have, for too long, considered data capture almost as an after-thought to their main aim, a nice to have, a bonus -- like you might collect random extra screws from IKEA furniture... "sure, it will be of value, but we'll sort it another day". I've seen data 'logged' for product control, manufacturing, or characterisation, in non-automated and non-scalable ways. Network drives full of csvs; groups reliant on sharepoint libraries of excel files; or teams which use their Teams' chats to dump data analysis outputs - even raw and aggregated files... They are barely digitialised in the proper sense, and hence these companies are poorly set up for out-of-the-box data science, the implementation of ML or AI. 
 
 
-<figure style="float: left; width: 40%; max-width: 400px; margin: 0 15px 15px 0;">
+<figure style="float: left; width: 50%; max-width: 400px; margin: 0 15px 15px 0;">
   <img src="/assets/data_dumpster.png" alt="My image description" style="width: 100%;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">The infamous data mountain, with insights just ready to be unearthed. Thanks ChatGPT for the image</figcaption>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">The infamous data mountain, with insights just ready to be unearthed. Image from ChatGPT</figcaption>
 </figure>
 
-The CXO have been getting wise to the issue for some time, and realise that ML/AI can be used to supercharge the business: to grow a user base, develop more accurate forecasts to optimise operations and inventory, adjust shift patterns, or even capitalise on the potential of GenAI and build internal chat-bots.
+The CXO have been getting wise to the issue for some time, and realise that ML/AI can be used to supercharge their business: to improve forecasts, optimise processes, operations, inventory, shift patterns -- whatever.
 
-Some businesses are turning to vendors who offer off-the-shelf solutions to power their predictive analytics and AI strategies. Indeed for some industries (including the one I'm in) there are go-to software solutions which are now incorporating ML and AI in their latest versions, or bolt-on modules for more legacy systems. And more and more we see general platforms are offering 'AI-augmented' capabilities (I'm looking at you CoPilot!). 
+Some businesses are turning to vendors who offer off-the-shelf solutions to power their predictive analytics and AI strategies. Indeed for some industries (including the one I'm in) there are go-to software solutions which are now incorporating ML and AI out-of-the-box, or bolt-on modules for more legacy systems. And more and more we see general platforms are offering 'AI-augmented' capabilities (I'm looking at you CoPilot!). 
 
 Data scientists (or data-literate people) can play a huge role in helping businesses integrate and implement such systems, or as part of a wider data-democratisation piece.
 
-However: data science, machine learning, AI - whether being developed from the ground-up internally, or using a purchased system - they are the cherry on the cake; by definition requiring a 'cake'. What is this cake?
+However: data science, machine learning, AI -- whether being developed from the ground-up internally, or using a purchased system -- they are the cherry on the cake; by definition requiring a 'cake'. What is this cake?
 
-__DATA. Consistent (ha), clean (lol), neat (loller), reliable (ok stop), live (FFS), high resolution data, logged automatically, into a database, and ready to access__
+__DATA__
 
-### So... we need some data scientists!?
+__Consistent (ha), clean (lol), neat (loller), reliable (ok stop), live (FFS), high resolution data, logged automatically, into a database, and ready to access__
 
-Well - yes and no. I feel like data scientist could/has become an umbrella phrase for all of the nuanced roles which reside within the sphere of 'data analytics and predictive analytics', even encompassing data engineer. A general data strategy is required (which I will address in a future post), and it would be wise, in development of that, to have some key data personnel involved:
+### CXO: So... we need some data scientists!?
+
+Well - yes and no. I feel like the term "data scientist" could/has become an umbrella phrase for all of the nuanced roles which reside within the sphere of 'data analytics and predictive analytics', even encompassing data engineer. A general data strategy is required, and it would be wise, in development of that, to have some key data personnel involved:
 
 
 <figure style="max-width: 100%; margin: auto 30;">
@@ -76,9 +78,11 @@ Well - yes and no. I feel like data scientist could/has become an umbrella phras
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;"> Radar plots to demonstrate the key skills and overlap for various roles in 'Data' teams, created by author, a fanatic for creating plots to tell a story... because I'm a Data Scientist</figcaption>
 </figure>
 
-These radar plots above aim to demonstrate and differntiate the skillsets that the various roles within a data team may possess and specialise in (the list is not exhaustive). You may or may not agree with this breakdown - it's anecdotal and based on my experience - but hopefully it makes the point of the core competencies required for the various roles. It also shows the huge degree of overlap between the roles. 
+These radar plots aim to demonstrate and differentiate skillsets that the various roles within a data team may possess and specialise in (the list is not exhaustive). You may or may not agree with this breakdown -- it's anecdotal and based on my experience -- but hopefully it makes the point of the core competencies required for the various roles. It also shows the huge degree of overlap between the roles.
 
-What it doesn't really allude to though is that, at different stages of a business, you need to lean heavily into those skills by differing amounts. A well established business which has 50 years of ledgers and 100 TB of files on hard drives containing all of their customer data, manufacturing records, IP ... They're going to need a Head of Data (or Digitalisation?) and likely a couple or even small team of data engineers to begin sorting out the infrastructure. A tech start-up formed 10 years ago is probably already on the cloud, and is 99% database driven: Data Scientist/ML Eng head-count green light!
+What it doesn't really allude to though is that, at different stages of a businesses growth, you need to lean heavily into those skills by differing amounts
+- A well established business which has 50 years of ledgers and 100 TB of files on hard drives containing all of their customer data, manufacturing records, IP ... They're going to need a Head of Data (or Digitalisation?) and likely a couple or even small team of data engineers to begin sorting out the infrastructure. 
+- A tech start-up formed 10 years ago is probably already on the cloud, and is 99% database driven: Data Scientist/ML Eng head-count green light!
 
 ## Why The Fall From Grace
 
@@ -89,17 +93,17 @@ Hahaha.
 Let's review the situation to understand, and try and apply some context:
 
 - Data science relies on a strong data infrastructure and data-centric culture; this takes time to get right, and requires budget, resource, and CXO buy-in (ideally CXO-led!)
-- The fables of a DS team deploying some sexy value-adding models that turn a company's fortune around over-night are rare (lies), and very much the exception (utter nonsense)
+- The fables of a DS team deploying some sexy value-adding models that turn a company's fortune around over-night are rare (read: complete bollocks)
   
 On top of all of this, the softer, tertiary factors to consider include:
 
-- Salary demands are bit nuts (thanks FAANG -- [$450k at Netflix?!](https://mikkeldengsoe.substack.com/p/data-salaries-2022?s=w#footnote-1))
+- Reported salaries are a bit nuts (thanks FAANG -- [$450k at Netflix](https://mikkeldengsoe.substack.com/p/data-salaries-2022?s=w#footnote-1)... for the median?!)
 - COVID hit us all like a brickwall...
 	- which has been conflated by the move to remote work...
 		- against which there is now a significant backlash
 - There are some awful wars going on, a tanking economy and significant geopolitical instability; companies are risk averse and trimming headcount as a result
-- The deployment of various GenAI platforms is rapidly improving everyone's ability to write (or vibe) code and "understand" their data better... (no it's not, but it feels like it)
-- so.... Data Scientists can be seen as a luxury
+- The deployment of various GenAI platforms is rapidly improving everyone's ability to write (or vibe 🤮) code and "understand" their data better (no it's not, but it feels like it)
+- so Data Scientists can be seen as a luxury
 
 ## What should you do about this?
 
@@ -146,12 +150,12 @@ so get used to explaining the output and technical details in a way a non-coder 
 
 Data Science, or rather the role of the data scientist, is evolving. Expect it to continue to do so.
 
-It was long overdue a correction, or reality check - a much-needed __refinement__ of a nascent field, bloated and under enormous pressure to deliver on huge and unfair expectations (thanks again FAANG!). 
+It was long overdue a correction, or reality check - a much-needed refinement of a nascient field, bloated with recruits, and under enormous pressure to deliver on hyped-up expectations. Sounds familiar.
 
 It could not be expected to deliver the promised gains for the huge swathe of businesses that aren't fully digitalised.
 
-However! To the people who have invested their time and money in their passion for data, who have developed their skills to understand statistics & coding, modelling, plotting, dashboards... there is PLENTY still to do, opportunities abound, and I don't see that going away any time soon. 
+However! To the people who have invested their time and money in their passion for data, who have developed their skills to understand statistics & coding, modelling, plotting, dashboards... there is PLENTY still to do, opportunities abound, and I don't see that going away any time soon.
 
-Evolve your skills, and update your pitch; you're a problem solver who knows advanced coding and statistics. That's a heady combination. As a data scientist, you're working across a stack of skills and capabilities. If you can own and enable each part, or at least more parts, of the __data --> insight__ pipeline and process, and understand the broader context of the puzzle you're trying to solve, you're of _incredible_ value. 
+Evolve your skills, and update your pitch; you're a problem solver who knows advanced coding and statistics. That's a heady combination. As a data scientist, you're working across a stack of skills and capabilities. If you can own and enable each part, or at least more parts, of the __data --> insight__ pipeline and process, and understand the broader context of the puzzle you're trying to solve, you're of _incredible_ value.
 
 ## __Accept the situation and adapt! And of course: Never 👏 stop 👏 developing 👏 yourself.__
