@@ -1,0 +1,43 @@
+---
+title: "Ben Coombs – CV"
+format:
+  html:
+    toc: false
+    include-highlights-only: true
+  pdf:
+    documentclass: article
+    toc: false
+    include-highlights-only: false
+---
+
+# Summary
+
+::: {.highlight}
+15+ years in data, analytics, and machine learning, with a PhD in Physical Chemistry.
+:::
+
+- Python, SQL, Tableau, storytelling
+- Built platforms for semiconductor and clinical data
+
+# Work Experience
+
+## Head of Data, TechCorp (2020–present)
+
+::: {.highlight}
+- Built a secure, scalable clinical data platform
+:::
+
+- Led a cross-functional team across engineering and science
+
+## Analyst, NanoLogic (2015–2020)
+
+- Developed predictive maintenance models
+
+# Education
+
+::: {.highlight}
+- PhD, Durham University
+:::
+
+- MPhys, Oxford
+ 
