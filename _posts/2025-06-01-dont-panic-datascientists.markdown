@@ -11,7 +11,7 @@ categories: blog general
 <!-- ![image of radar plots showing different skillsets for data roles](/assets/DS_chooses_life.png) -->
 
 <figure style="max-width: 100%; margin: 20 auto;">
-  <img src="/assets/DS_chooses_life.png" alt="Image showing DS leaving the grim reaper and working on growing knowledge" style="width: 100%; height: auto; display: block;"/>
+  <img src="/assets/images/posts/DS_chooses_life.png" alt="Image showing DS leaving the grim reaper and working on growing knowledge" style="width: 100%; height: auto; display: block;"/>
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;">This DS chooses to upskill! Thanks ChatGPT for the image</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ Just better hope the excel sheets don't change too much for next month...
 
 
 <figure style="float: right; width: 40%; max-width: 300px; margin: 0px 0px 15px 15px;">
-  <img src="/assets/hooked-on-instagram.png" alt="My image description" style="width: 100%;"/>
+  <img src="/assets/images/posts/hooked-on-instagram.png" alt="My image description" style="width: 100%;"/>
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Image from ChatGPT (clearly)</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ Too many businesses have, for too long, considered data capture almost as an aft
 
 
 <figure style="float: left; width: 50%; max-width: 400px; margin: 0 15px 15px 0;">
-  <img src="/assets/data_dumpster.png" alt="My image description" style="width: 100%;"/>
+  <img src="/assets/images/posts/data_dumpster.png" alt="My image description" style="width: 100%;"/>
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;">The infamous data mountain, with insights just ready to be unearthed. Image from ChatGPT</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ Well - yes and no. I feel like the term "data scientist" could/has become an umb
 
 
 <figure style="max-width: 100%; margin: auto 30;">
-  <img src="/assets/DS_radar_plot.png" alt="My image description" style="width: 100%;"/>
+  <img src="/assets/images/posts/DS_radar_plot.png" alt="My image description" style="width: 100%;"/>
   <figcaption style="font-size: 0.9em; text-align: center; color: #666;"> Radar plots to demonstrate the key skills and overlap for various roles in 'Data' teams, created by author, a fanatic for creating plots to tell a story... because I'm a Data Scientist</figcaption>
 </figure>
 

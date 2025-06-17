@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bac The To Data
+title: BAC To The Data
 email: ben.coombs83@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My data science project portfolio and blog - sharing insights from 15+ years in science and technology consultancies and manufacturing:
+  My data science project portfolio and blog - sharing insights from 15+ years in data for science and technology R&D, consultancies and manufacturing:
   
   data analysis | modelling | visualisation | leadership
 
@@ -29,9 +29,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "bac-ds.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  bac-ds
 linkedin_username: bacoombs
+# stackoverflow_username: hdsci
 
 # Build settings
 theme: minima
+#theme: jekyll-theme-yat
 plugins:
   - jekyll-feed
 

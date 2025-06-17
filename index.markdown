@@ -4,5 +4,4 @@
 
 layout: home
 title: BAC - Data Pro Web Portfolio
-banner: "/assets/images/banners/home.jpeg"
 ---

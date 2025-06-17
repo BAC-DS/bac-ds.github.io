@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Dr Benjamin A. Coombs - CV
 permalink: /about/BAC_CV/
 ---
@@ -28,14 +28,13 @@ __Senior Manager - Data Science and Software Engineering; "Head of Manufacturing
 __Feb '22 - Present__
 
 - Expanded headcount with a strong focus on diversity, building a multifunctional team (DBA-DE/DA/DS-MLEng), integrated across the UK and Europe 
-- Implemented DevOps and MLOps practices to streamline development and optimize machine learning operations
+  - Implemented DevOps and MLOps practices to streamline development and optimize machine learning operations
 - Drove a strategic overhaul of key production department’s technical data logging and automated analysis capability
--- Including the implementation of bespoke ML approach to signal analysis, removing reliance on out-dated KPIs
-- Developed and directed a project utilizing Convolutional Neural Network (CNN) encoders to classify wafer maps based on yield signatures
-- ML approach improved accuracy in detecting patterns and anomalies, driving faster root cause analysis and enabling more efficient process optimization
+  - Including the implementation of bespoke ML approach to signal analysis, removing reliance on out-dated KPIs
+  - Developed and directed a project utilizing Convolutional Neural Network (CNN) encoders to classify wafer maps based on yield signatures
+  - ML approach improved accuracy in detecting patterns and anomalies, driving faster root cause analysis and enabling more efficient process optimization
 - Spearheaded some low level marketing analytics (customer segmentation via RFM and KMeans and churn analysis) provided for exploratory understanding of CRM/ERP and social platforms’ interactions 
 - Lead on pilot project scoping & developing RAG interface based domain-specific LLM 
-- Directed analytical and modelling task forces, supporting engineers and scientists across multiple disciplines 
 - Deployed an internal API underpinning a self-service data portal
 - Overhauled C-Suite-facing reporting, implementing dashboards, enabling improved visibility of KPIs, affording users’ drill-down capability
 - Drove company-wide adoption of Tableau for BI/reporting
@@ -46,8 +45,8 @@ __Data Scientist/Senior Data Scientist – Operations__
 __Jul ‘18 – Jan ‘22__
 
 - Technical leadership of data analytics on various task forces
-- Covering R&D, process development engineering projects
-- Winner of ‘Above & Beyond’ internal award for contribution to key business objective 
+  - Covering R&D, process development engineering projects
+  - Winner of ‘Above & Beyond’ internal award for contribution to key business objective 
 - Various analytical, statistical and ML techniques used to help understand complex interactions of a ~100 step high-tech manufacturing process with complex test outputs and improve process development cycles
 - Excellent knowledge of key tecniques for EDA, feature engineering/selection, dimensionality reduction, model selection and hyper-parameter tuning
 -- Performed tool performance monitoring and analysis to enable improved scheduling of maintenance events i.e. predictive maintenance (time series analysis using ARIMA/association rule)

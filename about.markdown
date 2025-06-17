@@ -4,9 +4,22 @@ title: About
 permalink: /about/
 ---
 
-# Current role: Head of Manufacturing Intelligence (Snr Mgr DS & SWE)
+<figure style="max-width: 50%; margin: auto;">
+  <img src="/assets/images/posts/BTTD_Logo.png" alt="BTTD logo" style="width: 100%; height: auto; display: block;"/>
+</figure>
 
-Solutions-driven data professional with a Ph.D. in Physical Chemistry and over 15 years of experience in data science and analytics, most recently within high-tech manufacturing. I bring strong expertise in statistical analysis, coding, and data-driven problem-solving, combined with a creative and analytical mindset. As a seasoned leader, I excel in fostering team growth, driving innovation, and leading projects that deliver value for stakeholders.
+<br>
+A Chemist by training, I completed my Ph.D in Durham back in 2009. I took the next 3-4 years to figure out what I really wanted to do, looking for a role where tech, maths, analysis, modelling, coding, problem solving, communication, and visualisation all intersected. 
+
+For the past decade and a half I've worked across academia, science and engineering -- research companies and consultancies, assisting companies ranging from 3-person outfits up to global mega-corps, always with a focus on the power of data; capturing, structuring, analysing, modeling, visualising - leveraging data and communicating insight. 
+
+Over the past 4 - 5 years I've transitioned to leadership, building a brilliant team of data engineers, scientists and software devs, who have delivered time and again on complex projects which have delivered high-value, needle-moving outputs, in line with strategic business goals.
+
+This website is simply a blog and general repository for me to share my thoughts from the perspective of data professional. It will also act as a portfolio for code and analyses I thought would be interesting or useful to share.
+
+_All opinions and thoughts are my own, drawn from my time in various business, and any code is mine to share._
+
+<br>
 
 # Links
 
