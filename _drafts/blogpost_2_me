@@ -1,0 +1,169 @@
+## Embedding Data Science within and across the Organisation
+
+I've asked this question and seen it asked on Reddit numerous times. 
+
+At networking events, or when I've worked with contacts across dozens of companies, I've probed a bit and asked around to understand how it's handled there.
+
+Moreover, I'm centrally involved in navigating this within my current company, as we grow and expand and the company and its data requirements evolve.
+
+__What is the optimal structure and position for your data or data science capability?__
+
+We live in a time when using data to drive decision-making is fundamental; so how you structure your data & data science capabilities is crucial to maximising that impact - it can be make-or-break!
+
+Perhaps you're building a new team, or there's some restructuring going on in your business? In this post I'll review the two commonest approaches for deploying a data capabilitiy within the organisation: the cross-functional 'matrix' model, and the standalone 'centralised' model. Obviously there are some variations and hybrids between those two which I'll cover too, as well as the pros and cons.
+
+# The Matrix Model
+
+Or the cross functional, or 'horizontally aligned', model.
+
+In this approach, data professionals (engs, analysts, scientists) are embedded across the different departments. In some business this will be how the PMO or HR functions are distributed - where you have a dedicated OPS HR team, or specific 'Product' PMO group. The data team similarly don't report in to a single business line, but instead supports multiple teams in parallel.
+
+**Diagram 1: Matrix Model**
+
+                   +------------------------+
+                   |     Data Function      |
+                   | (Data Science, Eng.)   |
+                   +-----------+------------+
+                               |
+        +----------------------+------------------------+
+        |                      |                        |
++---------------+    +----------------+       +-----------------+
+|  Marketing    |    |   Operations   |       |   Product Team  |
++---------------+    +----------------+       +-----------------+
+
+
+**Pros:**
+
+- **Business alignment:** Close proximity to business units allows data scientists to understand domain-specific challenges.
+    
+- **High utilisation:** Analysts are constantly working on relevant, real-world business problems.
+    
+- **Faster feedback loops:** Iteration cycles are shorter thanks to closer collaboration with stakeholders.
+    
+
+**Cons:**
+
+- **Fragmented governance:** Without strong leadership from a central data function, standards and tooling can diverge.
+    
+- **Overextension:** Data professionals can be pulled in too many directions without clear prioritisation.
+    
+- **Career development issues:** With dual reporting lines (e.g., to both a functional head and a business lead), mentorship and progression may suffer.
+
+
+### 2. The Standalone (Centralised) Model
+
+In a standalone model, the data team functions as an independent unit, often under IT, Strategy, or Technology. This team handles requests from various departments, prioritising work based on organisational goals.
+
+**Diagram 2: Centralised Model**
+
+```
+                       +------------------------+
+                       |   Central Data Team    |
+                       | (Science, Eng., BI)    |
+                       +------------------------+
+                               /|\
+                                |
+        +----------------------+-------------------------+
+        |                      |                         |
++---------------+    +----------------+       +-----------------+
+|  Marketing    |    |   Operations   |       |   Product Team  |
++---------------+    +----------------+       +-----------------+
+```
+
+**Pros:**
+
+- **Consistency:** Tools, standards, and models are centralised, enabling quality control.
+    
+- **Skill development:** Colocation allows for shared learning, mentoring, and a clear career path.
+    
+- **Strategic alignment:** Easier to align data initiatives with top-level organisational goals.
+    
+
+**Cons:**
+
+- **Detachment from business:** Without regular interaction, data teams may miss important context.
+    
+- **Bottlenecks:** A central team can become overwhelmed with requests, leading to delays.
+    
+- **Reduced agility:** Lack of deep domain immersion can hinder responsiveness to fast-changing team needs.
+    
+
+---
+
+### 3. Hybrid and Evolving Models
+
+Some organisations opt for a hybrid structure, blending elements of both. For instance, a central data team might own core infrastructure, data governance, and ML platform development, while embedded analysts or scientists are assigned to business units for specific initiatives.
+
+This hybrid model attempts to get the best of both worlds: strong governance from the centre, and tight alignment with business needs at the edge.
+
+**Implementation Tips for a Hybrid Model:**
+
+- **Clear roles:** Define what’s owned centrally vs. locally.
+    
+- **Regular syncs:** Cross-functional stand-ups or review boards help coordinate work and maintain standards.
+    
+- **Rotations:** Let data staff rotate between central and embedded roles to promote knowledge sharing.
+    
+
+---
+
+### 4. Transitioning Between Models
+
+Organisations often shift between models as they grow. Here’s how to approach a change:
+
+#### Centralised → Matrix
+
+- **Prepare for decentralisation:** Create toolkits, documentation, and governance standards.
+    
+- **Build trust:** Let embedded teams gradually take more ownership while checking in centrally.
+    
+- **Maintain oversight:** Keep a dotted-line relationship to ensure alignment.
+    
+
+#### Matrix → Centralised
+
+- **Audit current state:** Identify inefficiencies, duplication, or gaps in quality.
+    
+- **Consolidate gradually:** Begin by centralising high-leverage functions like infrastructure and governance.
+    
+- **Promote the value:** Showcase how centralisation can enable more strategic initiatives.
+    
+
+---
+
+### 5. Final Thoughts
+
+There’s no one-size-fits-all solution. The "best" structure depends on your organisation’s size, maturity, leadership culture, and business model. A startup might benefit from embedded analysts sitting with product teams, while an enterprise might prioritise governance and scalability.
+
+The key is clarity: clear goals, clear ownership, and clear communication. With those in place, your data function can thrive regardless of structure.
+
+---
+
+**Have you recently restructured your data team?** Share your insights in the comments – what worked, what didn’t, and what you’d do differently next time.
+
+
+
+
+
+
+
+But immediately, I can argue this is a flawed question.
+
+You can't have standalone data scientists any more -- 
+
+Opt1
+DOMAIN KNOWLEDGE IS KEY
+
+Opt2
+NUMBERS ARE NUMBERS - DATA IS DATA
+
+
+Given that "data is the new oil" in terms of value derived, and building on my earlier post
+
+
+There is no one size fits all - that is for sure.
+
+Following things to consider
+
+- type of company (tech, science, manufacturing, property, financial)
+- 
