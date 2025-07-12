@@ -1,16 +1,41 @@
-## Embedding Data Science within and across the Organisation
+## Maximising the Efficacy of Your Data Team
 
-I've asked this question and seen it asked on Reddit numerous times. 
+I've asked these questions and seen them asked on Reddit numerous times.
 
-At networking events, or when I've worked with contacts across dozens of companies, I've probed a bit and asked around to understand how it's handled there.
+At networking events, or when I've worked with contacts across dozens of companies, I've probed a bit and dug around to try to understand how it's handled there.
 
 Moreover, I'm centrally involved in navigating this within my current company, as we grow and expand and the company and its data requirements evolve.
 
-__What is the optimal structure and position for your data or data science capability?__
+__What roles are in your data team?__
+__What is the optimal structure of your data team?__
+__Where do your data/data science team(s) sit within your company?__
 
-We live in a time when using data to drive decision-making is fundamental; so how you structure your data & data science capabilities is crucial to maximising that impact - it can be make-or-break!
+We live in a time when using data to drive decision-making is critical, and not maximising its impact is basically leaving money on the table. As such, how you structure and position your data capability can make a significant difference!
 
-Perhaps you're building a new team, or there's some restructuring going on in your business? In this post I'll review the two commonest approaches for deploying a data capabilitiy within the organisation: the cross-functional 'matrix' model, and the standalone 'centralised' model. Obviously there are some variations and hybrids between those two which I'll cover too, as well as the pros and cons.
+Over the next couple of posts I'll outline what I've learned from reading around and talking with connections; but - as you will probably already know - there is no single answer that will definitively work. Multiple factors come into play, from type of business, stage of business growth, size of business, and maybe a couple more.
+
+I share my thoughts below.
+
+# What roles make up the data team?
+
+This is tied really to a more core question (oops) --  what does a data team do?
+
+The number of potential answers here scales with
+
+$\sum business \times \left( CXO+SLT business \right) $
+
+or rather: pretty much everyone is going to have an opinion; if they overlap, you're gold.
+
+For me, primarily, a data team exists to structure, organise, manage and use the data collected by a company, to derive insights and provide value to the business.
+
+
+Pt 1 -- include what's in a data team
+
+Pt 2 -- structure 1
+
+Pt 3 -- structure 2
+
+Pt 4 -- hybrids
 
 # The Matrix Model
 
@@ -20,35 +45,22 @@ In this approach, data professionals (engs, analysts, scientists) are embedded a
 
 **Diagram 1: Matrix Model**
 
-                   +------------------------+
-                   |     Data Function      |
-                   | (Data Science, Eng.)   |
-                   +-----------+------------+
-                               |
-        +----------------------+------------------------+
-        |                      |                        |
-+---------------+    +----------------+       +-----------------+
-|  Marketing    |    |   Operations   |       |   Product Team  |
-+---------------+    +----------------+       +-----------------+
 
+**#Wins**
 
-**Pros:**
+- Close proximity to business units allows data scientists to understand domain-specific challenges.
 
-- **Business alignment:** Close proximity to business units allows data scientists to understand domain-specific challenges.
-    
-- **High utilisation:** Analysts are constantly working on relevant, real-world business problems.
-    
-- **Faster feedback loops:** Iteration cycles are shorter thanks to closer collaboration with stakeholders.
-    
+- Analysts are constantly working on relevant, real-world business problems.
 
-**Cons:**
+- Iteration cycles are shorter thanks to closer collaboration with stakeholders.
 
-- **Fragmented governance:** Without strong leadership from a central data function, standards and tooling can diverge.
-    
-- **Overextension:** Data professionals can be pulled in too many directions without clear prioritisation.
-    
-- **Career development issues:** With dual reporting lines (e.g., to both a functional head and a business lead), mentorship and progression may suffer.
+**#Fails**
 
+- Without strong leadership from a central data function, standards and tooling can diverge.
+
+- Data professionals can be pulled in too many directions without clear prioritisation.
+
+- With potential dual reporting lines (e.g., to both a functional head and a business lead) mentorship and progression may suffer.
 
 ### 2. The Standalone (Centralised) Model
 
