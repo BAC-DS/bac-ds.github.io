@@ -56,7 +56,7 @@ __Ensuring security and compliance__ are key requirements for businesses - espec
 
 __Capturing data__ will likely be done by software; either be off-the-shelf or perhaps something developed internally; a bespoke solution. This could be a simple script which parses automatically generated files, or a full blow web app which interfaces with other systems This would involve some capacity of _software developers_, but also _data engineers_.
 
-__Enabling Access, including via Self-Service Analytics__ is more and more a key objective of the data team, allowing wider teams to interrogate and analyse the data in a safe and simple environment. This capability, developed by _data analysts_ and _data engineers_ working together perhaps with _business analysts_ unburdens the data team from the day-to-day, tactical requirements, allowing _data analysts_ and data scientists to focus on the strategic projects, with greater value-add.
+__Enabling Access, including via Self-Service Analytics__ is more and more a key objective of the data team, allowing wider teams to interrogate and analyse the data in a safe and simple environment. This capability, developed by _data analysts_ and _data engineers_ working together perhaps with _business analysts_ unburdens the data team from the day-to-day, tactical requirements, allowing _data analysts and data scientists_ to focus on the strategic projects, with greater value-add.
 
 __Driving Insight and supporting decisions__ are a core function for _data analysts_, addressing issues and questions from product and finance teams, as well as working with domain experts to support technical teams. Outputs from these tasks can often inspire development of data products.
 
