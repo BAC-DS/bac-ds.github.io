@@ -1,35 +1,9 @@
-## Maximising the Efficacy of Your Data Team
-
-I've asked these questions and seen them asked on Reddit numerous times.
-
-At networking events, or when I've worked with contacts across dozens of companies, I've probed a bit and dug around to try to understand how it's handled there.
-
-Moreover, I'm centrally involved in navigating this within my current company, as we grow and expand and the company and its data requirements evolve.
-
-__What roles are in your data team?__
-__What is the optimal structure of your data team?__
-__Where do your data/data science team(s) sit within your company?__
-
-We live in a time when using data to drive decision-making is critical, and not maximising its impact is basically leaving money on the table. As such, how you structure and position your data capability can make a significant difference!
-
-Over the next couple of posts I'll outline what I've learned from reading around and talking with connections; but - as you will probably already know - there is no single answer that will definitively work. Multiple factors come into play, from type of business, stage of business growth, size of business, and maybe a couple more.
-
-I share my thoughts below.
-
-# What roles make up the data team?
-
-This is tied really to a more core question (oops) --  what does a data team do?
-
-The number of potential answers here scales with
-
-$\sum business \times \left( CXO+SLT business \right) $
-
-or rather: pretty much everyone is going to have an opinion; if they overlap, you're gold.
-
-For me, primarily, a data team exists to structure, organise, manage and use the data collected by a company, to derive insights and provide value to the business.
-
-
-Pt 1 -- include what's in a data team
+---
+layout: post
+title:  "Maximising the Efficacy of Your Data Team"
+date:   2025-07-14 13:00:15 +0100
+categories: blog general
+---
 
 Pt 2 -- structure 1
 
@@ -178,4 +152,4 @@ There is no one size fits all - that is for sure.
 Following things to consider
 
 - type of company (tech, science, manufacturing, property, financial)
-- 
+-
