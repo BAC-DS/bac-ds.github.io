@@ -19,6 +19,8 @@ __What is the optimal structure of your data team?__
 
 __Where do your data/data science team(s) sit within your company?__
 
+... I know; quite the interrogation.
+
 
 We live in a time when using data to drive decision-making is critical, and not maximising its impact is basically leaving money on the table. As such, how you structure and position your data capability can make a significant difference!
 
@@ -62,7 +64,7 @@ __Driving Insight and supporting decisions__ are a core function for _data analy
 
 __Building and deployment of Data Products__ such as forecasting models, classifier systems, recommendation engines etc etc., will be one of the more visibile and headline-making outputs of a well-established data team, primarily owned and developed by _data scientists_ and _ML engineers_.
 
-__Strategic roadmapping__ to understand how 'data' will be best leveraged to support and enable the wider business requirements and strategy. For this to be successful, and allow the company to extract the most value from its data, data team leaders (Directors, Snr Managers, VPs - whatever) need to be integrated with the SLT and CXO. Data literacy where key decisions are made and strategies signed-off is crucial.
+__Strategic roadmapping__ to understand how 'data' will be best leveraged to support and enable the wider business requirements and strategy. For this to be successful, and allow the company to extract the most value from its data, data team leaders (Directors, Snr Managers, VPs, a CIO... - whatever) need to be integrated with the SLT and CXO. Data literacy where key decisions are made and strategies signed-off is crucial.
 
 
 In my next post I'll discuss the possible structures and positions for a data team. Thanks for reading 👍
