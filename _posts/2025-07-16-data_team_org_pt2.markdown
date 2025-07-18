@@ -5,7 +5,7 @@ date:   2025-07-16 19:00:00 +0100
 categories: blog general
 ---
 
-In Pt1 of this two-parter on data team efficacy, I wrote about what a data team typically does, and as a result what sorts of roles make up a data team; it covered _organisational, analytical, and administrative_ roles - accounting for ownership of the structure and usage of data. In this post I want to outline my thoughts on the structures of a data team WITHIN an organisation - because getting this right is key to empowering the entire business with ready access to data, fast analytics, scalable infrastructure and - ultimately - driving the ROI.
+In [Part 1](https://bac-ds.github.io/blog/general/2025/06/27/data_team_org_pt1.html) of this two-parter on data team efficacy, I wrote about what a data team typically does, and as a result what sorts of roles make up a data team; it covered _organisational, analytical, and administrative_ roles - accounting for ownership of the structure and usage of data. In this post I want to outline my thoughts on the structures of a data team WITHIN an organisation - because getting this right is key to empowering the entire business with ready access to data, fast analytics, scalable infrastructure and - ultimately - driving the ROI.
 
 
 <figure style="max-width: 100%; margin: 20 auto;">
