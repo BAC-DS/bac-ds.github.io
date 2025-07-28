@@ -8,8 +8,7 @@ categories: blog general
 
 I want to talk about Data Governance. It's a hot topic given the proliferation of data, genAI, regulation... and the inherent difficulties of that going un-managed for too long, BUT it is a crucial part of any business' data strategy. Indeed it underpins it.
 
-I work in the Semicon industry, so thought I'd start with a quick *fab*le (hehe) 
-to introduce-by-example the importance of data governance, before a subsequent post or posts, outlining the key tenets of data governance, and strategy for implementing.
+I work in the Semicon industry, so thought I'd start with a quick introduce-by-example on the importance of data governance, before some follow-up posts, outlining the key tenets of data governance, and strategy for implementing.
 
 ### 🏭 **Company A: Silicore Ltd**
 
@@ -37,9 +36,9 @@ The auditors laughed, then left.
 
 ### 🏢 **Company B: Fabtastic Semiconductors Ltd**
 
-From the start, Fabtastic was run by people who loved their Excel spreadsheets 😧, but loved knowing where the data came from even more.
+From the start, Fabtastic was run by people who also loved some Excel, but loved knowing where the data came from even more. They had even dabbled with some SQL databases, and had documented these schema early on in some free open-source software, giving definitions on columns and logging owners of key datasets.
 
-They set up a data catalog early on. They gave their data owners name badges. Actual name badges. They taught their analysts what “golden source” meant.
+They gave their data owners name badges. Actual name badges. They taught their analysts what “golden source” meant.
 
 As Fabtastic scaled:
 
@@ -55,7 +54,7 @@ It wasn’t exciting (well... maybe for some) but then neither was _not knowing 
 
 When they went for ISO accreditation they were able to show the auditors lineage diagrams so beautiful there were actual high-fives around the table.
 
-### The Moral of the Fab-le?
+### The Moral of the Fable?
 
 - Data governance is not like a report, a dashboard, or a model -- it's not a '**data product**'. 
 
