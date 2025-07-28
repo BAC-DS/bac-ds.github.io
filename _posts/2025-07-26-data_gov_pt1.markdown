@@ -5,15 +5,16 @@ date:   2025-07-26 20:00:00 +0100
 categories: blog general
 ---
 
+<figure style="max-width: 100%; margin: 20 auto;">
+  <img src="/assets/images/posts/Good_vs_Bad_DataGovernance.png" alt="Cartoon for poor vs good data governance" style="width: 100%; height: auto; display: block;"/>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Data Governance, like planting an acorn to grow an oak tree -- the best time was years ago, the second best time is NOW</figcaption>
+</figure>
+
 
 I want to talk about Data Governance. It's a hot topic given the proliferation of data, genAI, regulation... and the inherent difficulties of that going un-managed for too long, BUT it is a crucial part of any business' data strategy. Indeed it underpins it.
 
 I work in the Semicon industry, so thought I'd start with a quick introduce-by-example on the importance of data governance, before some follow-up posts, outlining the key tenets of data governance, and strategy for implementing.
 
-<figure style="max-width: 100%; margin: 20 auto;">
-  <img src="/assets/images/posts/Good_vs_Bad_DataGovernance.png" alt="Cartoon for poor vs good data governance" style="width: 100%; height: auto; display: block;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Data Governance, like planting an acorn to grow an oak tree -- the best time was years ago, the second best time is NOW</figcaption>
-</figure>
 
 
 ### 🏭 **Company A: Silicore Ltd**
