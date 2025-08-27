@@ -1,0 +1,106 @@
+---
+layout: post
+title:  "Data Governance Pt2: Oh great, more filing and documentation"
+date:   2025-07-27 07:00:00 +0100
+categories: blog general
+---
+
+<figure style="max-width: 100%; margin: 20 auto;">
+  <img src="/assets/images/posts/Good_vs_Bad_DataGovernance.png" alt="Cartoon for poor vs good data governance" style="width: 100%; height: auto; display: block;"/>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Data Governance, like planting an acorn to grow an oak tree -- the best time was years ago, the second best time is NOW</figcaption>
+</figure>
+
+(Last post)[link] 
+To ensure that data across the organisation is **accurate, secure, accessible, and used responsibly**, supporting both operational needs and strategic goals.
+
+
+### **🏛️ Key Pillars of a Data Governance Strategy**
+
+1. **Data Ownership & Stewardship**
+    
+    - Assign clear roles and responsibilities.
+        
+    - Typical roles: _Data Owners_ (accountable), _Data Stewards_ (hands-on custodians), _Data Custodians_ (IT side).
+        
+    - Define who can make decisions about data changes or access.
+        
+2. **Data Quality Management**
+    
+    - Define standards for what makes data “good” (e.g. accuracy, completeness, timeliness).
+        
+    - Include routines for profiling, validation, cleansing, and monitoring.
+        
+3. **Metadata Management**
+    
+    - Create a data catalogue or business glossary.
+        
+    - Helps users understand the data (definitions, lineage, usage, owners).
+        
+4. **Data Privacy & Security**
+    
+    - Ensure compliance with regulations (GDPR, HIPAA, etc.).
+        
+    - Define rules for data classification, access control, encryption, and audit logging.
+        
+5. **Data Lifecycle Management**
+    
+    - Plan for data from creation through to archival and deletion.
+        
+    - Include policies for retention, archival, and disposal.
+        
+6. **Master & Reference Data Management**
+    
+    - Maintain consistent definitions for core entities (e.g. customers, products).
+        
+    - Avoid duplication and ambiguity.
+        
+7. **Policy & Standards Framework**
+    
+    - Develop enterprise-wide policies (e.g. naming conventions, data retention).
+        
+    - Define escalation paths when data issues arise.
+        
+8. **Data Governance Council or Committee**
+    
+    - A cross-functional team that oversees strategy, resolves disputes, and enforces compliance.
+        
+9. **Tools & Technology**
+    
+    - Leverage platforms for:
+        
+        - Data cataloguing (e.g. Collibra, Alation)
+            
+        - Access governance (e.g. Azure Purview, Informatica)
+            
+        - Lineage and monitoring (e.g. dbt, Monte Carlo)
+            
+10. **Measurement & Continuous Improvement**
+    
+    - Define metrics (e.g. % of critical data sets with stewards assigned, quality scores).
+        
+    - Regularly review and refine the strategy.
+        
+
+---
+
+### **🧭 How It’s Typically Delivered**
+
+- **Phase 1: Discovery & Assessment**
+
+    - Current state analysis, stakeholder interviews, maturity assessment.
+
+- **Phase 2: Governance Framework Design**
+
+    - Define policies, roles, processes, and tools.
+
+- **Phase 3: Pilot Implementation**
+
+    - Apply governance to a key data domain (e.g. patient data, financial data).
+
+- **Phase 4: Organisation-Wide Rollout**
+
+    - Expand to other domains, integrate with data platforms and pipelines.
+
+- **Phase 5: Operationalisation & Monitoring**
+
+    - Ongoing stewardship, reporting, issue resolution, and optimisation.
