@@ -1,22 +1,55 @@
 ---
 layout: post
-title:  "Data Governance Pt2: Oh great, more filing and documentation"
-date:   2025-07-27 07:00:00 +0100
+title:  "Data Governance Pt2: Why you should care about Data Governance"
+date:   2025-08-26 07:00:00 +0100
 categories: blog general
 ---
 
-<figure style="max-width: 100%; margin: 20 auto;">
-  <img src="/assets/images/posts/Good_vs_Bad_DataGovernance.png" alt="Cartoon for poor vs good data governance" style="width: 100%; height: auto; display: block;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Data Governance, like planting an acorn to grow an oak tree -- the best time was years ago, the second best time is NOW</figcaption>
+In my [last post](https://bac-ds.github.io/blog/general/2025/07/26/data_gov_pt1.html) I gave a tongue-in-cheek story about two (VERY fictional!) semiconductor manufacturing companies, exhibiting very different approaches towards and appetites for data governance, culminating in, well.... quite different results when auditors came knocking.
+
+Frankly, passing an audit is barely even a side-benefit (admittedly it might be the ROI your SLT/CXOs are interested in!) but the day-to-day wins of a well executed and maintained data infrastructure, with ownership, documentation, versioning, quality, visibility provide extensive value for pretty much every facet of the business.
+
+### **Purpose of a Data Governance Strategy**
+
+Basically, the whole point is to build a system, or set of policies/frameworks/tools/widgets/*insert your internal corporate vernacular here*, that ensures data across the organisation is
+
+- accurate
+- secure
+- accessible 
+- used responsibly
+
+Let's do the age-old _'If this was solved tomorrow, what would it look like?'_ thing... so - read the below and see if it sounds like some sort of utopia because, and I don't say this lightly, getting DG right will make __everything__ easier - for example:
+
+<figure style="float: right; max-width: 40%; margin: 20 auto;">
+  <img src="/assets/images/posts/No_DG_CXO.png" alt="Cartoon for poor vs good data governance" style="width: 100%; height: auto; display: block;"/>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Time for a bit of a rethink, and some data governance</figcaption>
 </figure>
 
-(Last post)[link] 
-To ensure that data across the organisation is **accurate, secure, accessible, and used responsibly**, supporting both operational needs and strategic goals.
+- knowing what data exists and who to ask about it
+- secure access to that data
+- analysis of data
+- having confidence in the data and derived metrics
+- visibility and clarity around metrics and KPIs
+- understanding the reporting of metrics and KPIs
+
+Which will all enable:
+- appropriate and a considered democratisation of data
+- tracking, visibility and optimisation of utilisation and performance of equipment
+- tracability, testing and monitoring of products or parts
+- generation, visibility, and - __ultimately__ - control of costings
+- ability to make decisions on hiring, production, alterations, optimisation of systems... based on data
+- you can finally call yourself **data-driven**
 
 
-### **🏛️ Key Pillars of a Data Governance Strategy**
+But be aware - for any business, in any industry, at any scale, __data governance takes effort__. 
+It's like exercise and staying healthy and in-shape -- it's a way of life. 
+Data governance isn't a data product that some day will just 'exist'.
 
-1. **Data Ownership & Stewardship**
+So let's take a look at the key pillars of DG, and start to understand what they mean, and how to implement.
+
+### **Key Pillars of a Data Governance Strategy**
+
+- **Data Ownership & Stewardship**
     
     - Assign clear roles and responsibilities.
         
@@ -24,47 +57,47 @@ To ensure that data across the organisation is **accurate, secure, accessible, a
         
     - Define who can make decisions about data changes or access.
         
-2. **Data Quality Management**
+- **Data Quality Management**
     
     - Define standards for what makes data “good” (e.g. accuracy, completeness, timeliness).
         
     - Include routines for profiling, validation, cleansing, and monitoring.
         
-3. **Metadata Management**
+- **Metadata Management**
     
     - Create a data catalogue or business glossary.
         
     - Helps users understand the data (definitions, lineage, usage, owners).
         
-4. **Data Privacy & Security**
+- **Data Privacy & Security**
     
     - Ensure compliance with regulations (GDPR, HIPAA, etc.).
         
     - Define rules for data classification, access control, encryption, and audit logging.
         
-5. **Data Lifecycle Management**
+- **Data Lifecycle Management**
     
     - Plan for data from creation through to archival and deletion.
         
     - Include policies for retention, archival, and disposal.
         
-6. **Master & Reference Data Management**
+- **Master & Reference Data Management**
     
     - Maintain consistent definitions for core entities (e.g. customers, products).
         
     - Avoid duplication and ambiguity.
         
-7. **Policy & Standards Framework**
+- **Policy & Standards Framework**
     
     - Develop enterprise-wide policies (e.g. naming conventions, data retention).
         
     - Define escalation paths when data issues arise.
         
-8. **Data Governance Council or Committee**
+- **Data Governance Council or Committee**
     
     - A cross-functional team that oversees strategy, resolves disputes, and enforces compliance.
         
-9. **Tools & Technology**
+- **Tools & Technology**
     
     - Leverage platforms for:
         
@@ -83,24 +116,19 @@ To ensure that data across the organisation is **accurate, secure, accessible, a
 
 ---
 
-### **🧭 How It’s Typically Delivered**
+At any business, in any industry, at any scale, data governance is an effort. It's like exercise and staying healthy and in-shape -- it's a way of life. Data governance isn't a data product that some day will just 'exist'.
 
-- **Phase 1: Discovery & Assessment**
+But - and I don't say this lightly - getting this right, will make _everything_ easier - for example:
+- knowing what data exists and who to ask about it
+- secure access to said data
+- analysis of data
+- responsibility for and ownership of data and derived metrics
+- visibility and clarity around metrics and KPIs
+- understanding of reporting of metrics and KPIs
+Which will all enable:
+- appropriate and a considered democratisation of data
+- tracking, visibility and optimisation of utilisation and performance of equipment
+- tracability, testing and monitoring of products or parts
+- generation, visibility, and - __ultimately__ - control of costings
 
-    - Current state analysis, stakeholder interviews, maturity assessment.
-
-- **Phase 2: Governance Framework Design**
-
-    - Define policies, roles, processes, and tools.
-
-- **Phase 3: Pilot Implementation**
-
-    - Apply governance to a key data domain (e.g. patient data, financial data).
-
-- **Phase 4: Organisation-Wide Rollout**
-
-    - Expand to other domains, integrate with data platforms and pipelines.
-
-- **Phase 5: Operationalisation & Monitoring**
-
-    - Ongoing stewardship, reporting, issue resolution, and optimisation.
+You can not claim to be a data-driven business unless you are are smashing this.
