@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data Governance Pt3: A Realistic Plan To Acheive It"
+title:  "Data Governance PtX: A Realistic Plan To Acheive It"
 date:   2025-07-27 07:00:00 +0100
 categories: blog general
 ---
