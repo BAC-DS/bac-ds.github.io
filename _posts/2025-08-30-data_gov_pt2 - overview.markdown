@@ -1,13 +1,19 @@
 ---
 layout: post
 title:  "Data Governance Pt2: Why you should care about Data Governance"
-date:   2025-08-26 07:00:00 +0100
+date:   2025-08-30 13:00:00 +0100
 categories: blog general
 ---
+
+<figure style="float: right; width: 40%; max-width: 300px; margin: 0px 0px 15px 15px;">
+  <img src="/assets/images/posts/No_DG_CXO.png" alt="Cartoon for poor vs good data governance" style="width: 100%; height: auto; display: block;"/>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Time for a bit of a rethink, and some data governance</figcaption>
+</figure>
 
 In my [last post](https://bac-ds.github.io/blog/general/2025/07/26/data_gov_pt1.html) I gave a tongue-in-cheek story about two (VERY fictional!) semiconductor manufacturing companies, exhibiting very different approaches towards and appetites for data governance, culminating in, well.... quite different results when auditors came knocking.
 
 Frankly, passing an audit is barely even a side-benefit (admittedly it might be the ROI your SLT/CXOs are interested in!) but the day-to-day wins of a well executed and maintained data infrastructure, with ownership, documentation, versioning, quality, visibility provide extensive value for pretty much every facet of the business.
+
 
 ### Purpose of a Data Governance Strategy
 
@@ -21,11 +27,6 @@ Basically, the whole point is to build a system, or set of policies/frameworks/t
 #### 'If this was solved tomorrow, what would it look like?'
 
 Let's do it this way - read the below and see if it sounds like some sort of utopia because, and I don't say this lightly, getting DG right will make __pretty much everything__ easier - for example:
-
-<figure style="float: right; max-width: 40%; margin: 20 auto;">
-  <img src="/assets/images/posts/No_DG_CXO.png" alt="Cartoon for poor vs good data governance" style="width: 100%; height: auto; display: block;"/>
-  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Time for a bit of a rethink, and some data governance</figcaption>
-</figure>
 
 - knowing what data exists and who to ask about it
 - secure access to that data
