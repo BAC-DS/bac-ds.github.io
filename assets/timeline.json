@@ -1,0 +1,82 @@
+{"events": [
+  {
+    "start_date": {"year": "2002", "month": "9"},
+    "end_date":   {"year": "2006", "month": "6"},
+    "media": {"url": "https://placehold.co/400x200?text=University+of+Durham", "credit": "University of Durham"},
+    "text": {
+      "headline": "M.Chem Chemistry — University of Durham",
+      "text": "Studied M.Chem (hons) Chemistry at the University of Durham, with a 4th-year dissertation on photoactive complexes of multimetallic assemblies."
+    }
+  },
+  {
+    "start_date": {"year": "2006", "month": "9"},
+    "end_date":   {"year": "2009", "month": "12"},
+    "media": {"url": "https://placehold.co/400x200?text=PhD+Physical+Chemistry", "credit": "University of Durham"},
+    "text": {
+      "headline": "Ph.D. Physical Chemistry — University of Durham",
+      "text": "Doctoral research into highly conjugated arylene ethylene systems, combining DFT modelling, organic synthesis, and photophysical spectroscopy."
+    }
+  },
+  {
+    "start_date": {"year": "2010", "month": "1"},
+    "end_date":   {"year": "2010", "month": "12"},
+    "media": {"url": "https://placehold.co/400x200?text=Johnson+Matthey", "credit": "Johnson Matthey / Durham University"},
+    "text": {
+      "headline": "Post-Doctoral Research Associate — Johnson Matthey / Durham University",
+      "text": "Modelled, prepared and analysed novel catalyst bed materials at the intersection of industry and academia."
+    }
+  },
+  {
+    "start_date": {"year": "2011", "month": "1"},
+    "end_date":   {"year": "2011", "month": "12"},
+    "media": {"url": "https://placehold.co/400x200?text=Heidelberg+University", "credit": "Heidelberg University, Germany"},
+    "text": {
+      "headline": "Post-Doctoral Research Associate — Heidelberg University",
+      "text": "Extended PhD research programme in Germany. Mentored postgraduates and consulted on multiple projects, including planning, commissioning and procurement of a new €2Mn organic electronics development laboratory."
+    }
+  },
+  {
+    "start_date": {"year": "2012", "month": "1"},
+    "end_date":   {"year": "2012", "month": "10"},
+    "media": {"url": "https://placehold.co/400x200?text=Proctor+%26+Gamble", "credit": "Proctor & Gamble / Durham University"},
+    "text": {
+      "headline": "Post-Doctoral KTS Fellowship — Proctor & Gamble / Durham University",
+      "text": "Developed hardware and software for real-time multi-spectrum video analysis to identify product defects at the manufacturing line."
+    }
+  },
+  {
+    "start_date": {"year": "2012", "month": "11"},
+    "end_date":   {"year": "2016", "month": "12"},
+    "media": {"url": "https://placehold.co/400x200?text=CPI", "credit": "Centre for Process Innovation"},
+    "text": {
+      "headline": "Senior Scientist – Organic Materials' Integration — Centre for Process Innovation",
+      "text": "Lead analyst and process development scientist on an iUK-funded (~£500K) multi-party project to develop the UK's first fully organic QVGA display (OLED). Developed bespoke Python scripts for automated analysis and high-volume wafer test data reporting."
+    }
+  },
+  {
+    "start_date": {"year": "2017", "month": "1"},
+    "end_date":   {"year": "2018", "month": "6"},
+    "media": {"url": "https://placehold.co/400x200?text=National+Formulation+Centre", "credit": "Centre for Process Innovation — National Formulation Centre"},
+    "text": {
+      "headline": "Senior Research Scientist – Informatics — Centre for Process Innovation",
+      "text": "Consulting tech lead and analyst on ERF grant scheme projects spanning SMEs to global corporations. PM on a £250K novel energy capture material feasibility trial and technical lead on a £400K data capture platform implementation."
+    }
+  },
+  {
+    "start_date": {"year": "2018", "month": "7"},
+    "end_date":   {"year": "2022", "month": "1"},
+    "media": {"url": "https://placehold.co/400x200?text=Pragmatic+Semiconductor", "credit": "Pragmatic Semiconductor"},
+    "text": {
+      "headline": "Data Scientist / Senior Data Scientist – Operations — Pragmatic Semiconductor",
+      "text": "Applied statistical and ML techniques across a ~100-step semiconductor manufacturing process. Built predictive maintenance models (ARIMA/association rules) and ensemble models (Random Forest) for causal inference — directly contributing to >40% yield improvement in a single month. Devised the in-house Python module for operational data access. Deployed Tableau across OPS and R&D. Won the 'Above & Beyond' internal award."
+    }
+  },
+  {
+    "start_date": {"year": "2022", "month": "2"},
+    "media": {"url": "https://placehold.co/400x200?text=Head+of+Manufacturing+Intelligence", "credit": "Pragmatic Semiconductor"},
+    "text": {
+      "headline": "Head of Manufacturing Intelligence — Pragmatic Semiconductor",
+      "text": "Built and lead a multifunctional data team (DBA · DE · DA · DS · MLEng) across the UK and Europe, with a strong focus on diversity and psychological safety. Directed CNN-based wafer map classification, a RAG/LLM pilot, self-service data portal API, and C-Suite KPI dashboards. Implemented DevOps/MLOps practices and supported successful ISO 27001 accreditation."
+    }
+  }
+]}

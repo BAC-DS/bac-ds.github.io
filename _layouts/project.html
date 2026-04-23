@@ -1,0 +1,27 @@
+---
+layout: base
+---
+
+<article class="project-layout">
+  <header class="project-header">
+    <div class="project-meta">
+      {% if page.type %}<span class="tag {% if page.type == 'notebook' or page.type == 'marimo' %}tag-teal{% elsif page.type == 'dashboard' %}tag{% else %}tag-gray{% endif %}">{{ page.type }}</span>{% endif %}
+      {% if page.status %}<span class="tag tag-gray">{{ page.status }}</span>{% endif %}
+      {% for tech in page.tech %}<span class="tag tag-gray">{{ tech }}</span>{% endfor %}
+    </div>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="project-description">{{ page.description }}</p>{% endif %}
+    <div class="project-links">
+      {% if page.github %}<a href="{{ page.github }}" class="btn btn-outline" target="_blank" rel="noopener">GitHub →</a>{% endif %}
+      {% if page.notebook %}<a href="{{ page.notebook }}" class="btn btn-primary" target="_blank" rel="noopener">Open Notebook</a>{% endif %}
+      {% if page.demo %}<a href="{{ page.demo }}" class="btn btn-primary" target="_blank" rel="noopener">View Demo</a>{% endif %}
+    </div>
+  </header>
+  <hr class="post-divider">
+  <div class="post-body">
+    {{ content }}
+  </div>
+  <nav class="post-nav">
+    <a href="{{ '/portfolio/' | relative_url }}">← Back to Portfolio</a>
+  </nav>
+</article>

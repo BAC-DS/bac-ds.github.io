@@ -32,10 +32,27 @@ linkedin_username: bacoombs
 # stackoverflow_username: hdsci
 
 # Build settings
-theme: minima
-#theme: jekyll-theme-yat
 plugins:
   - jekyll-feed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /portfolio/:name/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

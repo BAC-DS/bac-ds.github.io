@@ -1,0 +1,91 @@
+---
+layout: base
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-eyebrow">data science · analysis · leadership</p>
+      <h1 class="hero-title">BAC To The Data</h1>
+      <p class="hero-subtitle">Insights on data science, team leadership, and analytics — from 15+ years working across research, consultancy, and manufacturing.</p>
+      <div class="hero-actions">
+        <a href="{{ '/blog/' | relative_url }}" class="btn btn-primary">Read the Blog</a>
+        <a href="{{ '/portfolio/' | relative_url }}" class="btn btn-outline">View Portfolio</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-strip">
+  <div class="container">
+    <div class="about-strip-text">
+      <p class="section-label">About</p>
+      <h2>Dr Ben Coombs</h2>
+      <p>A Chemist by training (PhD, Durham 2009), I've spent 15+ years at the intersection of science, data, and engineering — leading teams, delivering insight, and building analytics capability across research, consultancy, and manufacturing.</p>
+      <a href="{{ '/cv/' | relative_url }}" class="btn btn-outline btn-sm" style="margin-top: 1rem; display: inline-flex;">View CV →</a>
+    </div>
+    <div class="about-strip-logo">
+      <img src="{{ '/assets/images/posts/BTTD_Logo.png' | relative_url }}" alt="BAC To The Data">
+    </div>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="section-label">Latest Writing</p>
+        <h2 class="section-title">From the Blog</h2>
+      </div>
+      <a href="{{ '/blog/' | relative_url }}" class="section-link">All posts →</a>
+    </div>
+    <div class="posts-grid">
+      {% for post in site.posts limit:3 %}
+      <article class="card post-card">
+        <div class="card-body">
+          <p class="post-card-meta">{{ post.date | date: "%d %b %Y" }}</p>
+          <h3 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 130 }}</p>
+          <div class="post-card-tags">
+            {% for cat in post.categories %}<span class="tag tag-gray">{{ cat }}</span>{% endfor %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-section home-section--alt">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="section-label">Projects</p>
+        <h2 class="section-title">Portfolio</h2>
+      </div>
+      <a href="{{ '/portfolio/' | relative_url }}" class="section-link">All projects →</a>
+    </div>
+    {% if site.projects.size > 0 %}
+    <div class="projects-grid">
+      {% for project in site.projects limit:3 %}
+      <article class="card project-card">
+        <div class="card-body">
+          <div class="project-card-type"><span class="tag {% if project.type == 'notebook' or project.type == 'marimo' %}tag-teal{% elsif project.type == 'dashboard' %}tag{% else %}tag-gray{% endif %}">{{ project.type | default: 'project' }}</span></div>
+          <h3 class="project-card-title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+          <p class="project-card-desc">{{ project.description }}</p>
+          <div class="project-card-links">
+            {% if project.github %}<a href="{{ project.github }}" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>{% endif %}
+            {% if project.demo %}<a href="{{ project.demo }}" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Demo</a>{% endif %}
+            {% if project.notebook %}<a href="{{ project.notebook }}" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Notebook</a>{% endif %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty-state">Projects coming soon — <a href="{{ '/blog/' | relative_url }}">read the blog</a> in the meantime.</p>
+    {% endif %}
+  </div>
+</section>
+
+{{ content }}

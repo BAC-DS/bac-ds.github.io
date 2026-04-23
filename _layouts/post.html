@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<article class="post-layout">
+  <header class="post-header">
+    <div class="post-header-meta">
+      <span>{{ page.date | date: "%d %B %Y" }}</span>
+      {% if page.categories.size > 0 %}
+      <span class="post-header-sep">·</span>
+      {% for cat in page.categories %}<span class="tag tag-gray">{{ cat }}</span>{% endfor %}
+      {% endif %}
+    </div>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <hr class="post-divider">
+  <div class="post-body">
+    {{ content }}
+  </div>
+  <nav class="post-nav">
+    <a href="{{ '/blog/' | relative_url }}">← Back to Blog</a>
+  </nav>
+</article>

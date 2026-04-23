@@ -6,10 +6,6 @@ categories: blog general
 ---
 
 
-
-
-
-
 # The Headlines
 
 _"Data is the New Oil"_

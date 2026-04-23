@@ -5,7 +5,6 @@ date:   2025-06-01 20:00:00 +0000
 categories: blog general
 ---
 
-
 # Some words of encouragement from a Senior Manager for Data Science
 
 <!-- ![image of radar plots showing different skillsets for data roles](/assets/DS_chooses_life.png) -->
@@ -71,7 +70,6 @@ __Consistent (ha), clean (lol), neat (loller), reliable (ok stop), live (FFS), h
 ### CXO: So... we need some data scientists!?
 
 Well - yes and no. I feel like the term "data scientist" could/has become an umbrella phrase for all of the nuanced roles which reside within the sphere of 'data analytics and predictive analytics', even encompassing data engineer. A general data strategy is required, and it would be wise, in development of that, to have some key data personnel involved:
-
 
 <figure style="max-width: 100%; margin: auto 30;">
   <img src="/assets/images/posts/DS_radar_plot.png" alt="My image description" style="width: 100%;"/>

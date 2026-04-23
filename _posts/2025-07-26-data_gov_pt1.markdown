@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Data Governance Pt1: A Tale of Two Fabs"
+date:   2025-07-26 20:00:00 +0100
+categories: blog general
+---
+
+<figure style="max-width: 100%; margin: 20 auto;">
+  <img src="/assets/images/posts/Good_vs_Bad_DataGovernance.png" alt="Cartoon for poor vs good data governance" style="width: 100%; height: auto; display: block;"/>
+  <figcaption style="font-size: 0.9em; text-align: center; color: #666;">Data Governance, like planting an acorn to grow an oak tree -- the best time was years ago, the second best time is NOW</figcaption>
+</figure>
+
+
+I want to talk about Data Governance. It's a hot topic given the proliferation of data, genAI, regulation... and the inherent difficulties of that going un-managed for too long, BUT it is a crucial part of any business' data strategy. Indeed it underpins it.
+
+I work in the Semicon industry, so thought I'd start with a quick introduce-by-example on the importance of data governance, before some follow-up posts, outlining the key tenets of data governance, and strategy for implementing.
+
+
+
+### 🏭 **Company A: Silicore Ltd**
+
+At first, Silicore was a scrappy start-up fab. Everything lived in Excel on someone’s laptop, labelled helpfully as:
+
+> `FINAL_v6.1b_REAL_THIS_TIME_USE_THIS_ONE.xlsx`
+
+Possibly some records were on a database, but the schema was on a post-it note on someone's monitor, and everyone had read/write access.
+
+Well anyway, things were going great! Until..:
+
+- Somebody asked where the customer delivery data was, and there were 4 different answers... and none of them agreed
+
+- Three teams built “On-Time Delivery” dashboards, all quoting different metrics
+
+- One KPI actually _improved_ after the engineer who created it left?!
+
+- The finance team stopped asking for data and made some 'educated' guesses
+
+Soon, Silicore’s analytics team was 60% firefighting, 20% off with stress, and 20% updating their CVs. The CXO banned the phrase “single source of truth” after it triggered a minor revolt.
+
+When auditors came, Silicore gave them a zip file called `raw_exports_backup.zip`.
+
+The auditors laughed, then left.
+
+### 🏢 **Company B: Fabtastic Semiconductors Ltd**
+
+From the start, Fabtastic was run by people who also loved some Excel, but loved knowing where the data came from even more. They had even dabbled with some SQL databases, and had documented these schema early on in some free open-source software, giving definitions on columns and logging owners of key datasets.
+
+They gave their data owners name badges. Actual name badges. They taught their analysts what “golden source” meant.
+
+As Fabtastic scaled:
+
+- Their yield values were reported consistently
+
+- Their KPIs weren’t debated like Brexit
+
+- Everyone, from the CXO to new hires, understood the dashboards and could trace a metric back to the machine, wafer, or operator that produced it
+
+Yes of course, there were SOPs, documents and policies. Even a data steering group and a governance council.
+
+It wasn’t exciting (well... maybe for some) but then neither was _not knowing why your OEE dropped 12% last week_.
+
+When they went for ISO accreditation they were able to show the auditors lineage diagrams so beautiful there were actual high-fives around the table.
+
+### The Moral of the Fable?
+
+- Data governance is not like a report, a dashboard, or a model -- it's not a '**data product**'. 
+
+- It is the behavioural framework and *policy* surrounding how data is captured, stored and used within a business, allowing for transparency around its genesis, lineage, relationships & integrity
+
+It will absolutely evolve with regulation and as the company scales and adapts. Furthermore, it won't just happen and suddenly be *there* -- it requires a mindset shift, which needs buy-in and vocal support, from the CXO and all the way across to those at the coal face.
+
+Certainly it won’t make your dashboards sexier - we all know that's what dark mode is for 😎
