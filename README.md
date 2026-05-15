@@ -63,6 +63,7 @@ If port 4000 is busy: `lsof -ti :4000 | xargs kill -9`
 ### CV
 - [ ] Replace `placehold.co` media images in `timeline.json` with real images or company logos
 - [ ] Explore embedding a Tableau or Plotly chart on the CV page as a skills showcase
+- [ ] Remove any personal info
 
 ### Infrastructure
 - [ ] Set up a proper GitHub Actions workflow for deploying `dev` previews

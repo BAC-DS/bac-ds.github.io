@@ -83,8 +83,4 @@ extra_css:
     </div>
   </div>
 
-  <div class="cv-download">
-    <a href="{{ '/assets/CV_DrBenCoombs.pdf' | relative_url }}" class="btn btn-outline" download>⬇ Download CV (PDF)</a>
-  </div>
-
 </div>
