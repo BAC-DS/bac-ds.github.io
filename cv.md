@@ -22,7 +22,8 @@ extra_css:
         timenav_position: 'bottom',
         duration: 500,
         zoom_sequence: [0.5, 1, 2, 3],
-        language: 'en'
+        language: 'en',
+        start_at_end: true
       });
     </script>
   </div>

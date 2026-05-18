@@ -21,8 +21,6 @@ _All opinions and thoughts are my own, drawn from my time in various business, a
 
 BAC (C) 2025
 
-# <a href="/assets/CV_DrBenCoombs.pdf" class="btn" download>⬇ Download CV as PDF</a>
-
 <!--  [Connect with me here](https://linkedin.com/in/bacoombs)
 
 [✉️ Email me at ben@example.com](mailto:ben@example.com)
